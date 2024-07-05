@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5303234517122532228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2339615154012144758}
+  - component: {fileID: 4173121941880155409}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2339615154012144758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303234517122532228}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.08119344, y: 1.3254269, z: -12.104755}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4173121941880155409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303234517122532228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3d9b34b632c7404bb440f9dd7b65baf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - trackName: Player_Footsteps
+    clip: {fileID: 8300000, guid: dbdf6390fc55bb448b7ccafd9c3871d7, type: 3}
+    volume: 0.03
+    pitch: 1.2
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - trackName: Enemy_Attack
+    clip: {fileID: 8300000, guid: 4b104e1bb9f562d4789e041e584d5a77, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - trackName: Open Door
+    clip: {fileID: 8300000, guid: 5ffe120ed89abaa488e2a2567ce0679c, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - trackName: Close Door
+    clip: {fileID: 8300000, guid: 939de54516481b140be7a41f94e9b363, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - trackName: Lock Door
+    clip: {fileID: 8300000, guid: 6f359b7d5ea62994699684f1203cfae2, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - trackName: Potion
+    clip: {fileID: 8300000, guid: cb7acea41a2b3c64ca79229e5b68cd6c, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - trackName: Chest
+    clip: {fileID: 8300000, guid: 2b8193c422dcdd24191f68eb7b49163e, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - trackName: Ambience
+    clip: {fileID: 8300000, guid: 160e49d0fbc014f45803870f1df7ecba, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 1
+  - trackName: Detected
+    clip: {fileID: 8300000, guid: 2e70446c7ec64d149833e159c9f09191, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - trackName: Crash
+    clip: {fileID: 8300000, guid: a5106a94f88ba144fa4984df0047fd76, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - trackName: OnClick
+    clip: {fileID: 8300000, guid: de938da35e7387c439987642e0f3b7ac, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0
+  - trackName: OnEnter
+    clip: {fileID: 8300000, guid: 2981ce63c234aa0498013edd675493db, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isMusic: 0

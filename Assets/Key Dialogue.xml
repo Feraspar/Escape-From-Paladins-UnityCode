@@ -1,0 +1,3 @@
+<Messages uid="2">
+  <Message uid="1">В сундуке Вы находите ключ. Должно быть от главной двери.<Answers><Answer auid="2" muid="-1" action="Завершить диалог">Взять ключ.</Answer></Answers></Message>
+</Messages>
